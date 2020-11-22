@@ -8,16 +8,21 @@
   </head>
   <body>
     <header class="header">
-      <div class="header_inner">
-        <h1 class="header_heading">コーヒーショップ coffee belt</h1>
-      </div>
-      <div class="gnav">
-        <nav>
-          <ul class="gnav__item">
-            <li class="gnav__items"><a href="#search">検索</a></li>
-            <li class="gnav__items"><a href="#company">会社概要</a></li>
-            <li class="gnav__items"><a href="#access">アクセス</a></li>
-            <li class="gnav__items">
+      <div class="gnav_area" id="gnavArea">
+        <span class="hamburger" id="hamburger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <div class="header_inner">
+          <h1 class="header_heading">コーヒーショップ coffee belt</h1>
+        </div>
+        <nav class="gnav" id="gnav">
+          <ul class="gnav_item">
+            <li class="gnav_items"><a href="#search">検索</a></li>
+            <li class="gnav_items"><a href="#company">会社概要</a></li>
+            <li class="gnav_items"><a href="#access">アクセス</a></li>
+            <li class="gnav_items">
               <a href="#recruitContact">採用<span>&</span>お問い合わせ</a>
             </li>
             <li class="gnav__items"><a href="#footer__sns">sns</a></li>
@@ -493,5 +498,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
